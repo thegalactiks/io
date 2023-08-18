@@ -1,0 +1,32 @@
+table:
+  name: persons
+  schema: public
+configuration:
+  column_config:
+    image_id:
+      custom_name: image
+  custom_column_names:
+    image_id: image
+  custom_root_fields: {}
+array_relationships:
+  - name: articles
+    using:
+      foreign_key_constraint_on:
+        column: author_id
+        table:
+          name: articles
+          schema: public
+  - name: pages
+    using:
+      foreign_key_constraint_on:
+        column: author_id
+        table:
+          name: pages
+          schema: public
+  - name: questions
+    using:
+      foreign_key_constraint_on:
+        column: author_id
+        table:
+          name: questions
+          schema: public

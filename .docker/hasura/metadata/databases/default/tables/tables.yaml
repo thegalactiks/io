@@ -1,0 +1,7 @@
+- "!include public_answers.yaml"
+- "!include public_articles.yaml"
+- "!include public_events.yaml"
+- "!include public_images.yaml"
+- "!include public_pages.yaml"
+- "!include public_persons.yaml"
+- "!include public_questions.yaml"
