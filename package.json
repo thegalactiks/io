@@ -1,0 +1,32 @@
+{
+  "name": "io",
+  "version": "0.0.0",
+  "private": true,
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/withmoons/io.git"
+  },
+  "workspaces": [
+    "packages/*",
+    "examples/*"
+  ],
+  "engines": {
+    "node": ">=16.20.0",
+    "pnpm": ">=8.4.0"
+  },
+  "packageManager": "pnpm@8.6.12",
+  "devDependencies": {
+    "@changesets/changelog-github": "^0.4.8",
+    "@changesets/cli": "2.26.2",
+    "@types/node": "20.4.10",
+    "@typescript-eslint/eslint-plugin": "6.3.0",
+    "@typescript-eslint/parser": "6.3.0",
+    "eslint": "8.47.0",
+    "eslint-config-prettier": "9.0.0",
+    "eslint-plugin-prettier": "5.0.0",
+    "organize-imports-cli": "0.10.0",
+    "prettier": "3.0.1",
+    "turbo": "1.10.12",
+    "typescript": "5.1.6"
+  }
+}

@@ -1,0 +1,7 @@
+overwrite: true
+schema: "http://localhost:8080/v1/graphql"
+generates:
+  ./src/index.ts:
+    plugins: ['typescript', 'typescript-operations', 'typescript-graphql-request']
+    config:
+      rawRequest: true
