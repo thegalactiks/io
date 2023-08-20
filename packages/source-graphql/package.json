@@ -1,0 +1,31 @@
+{
+  "name": "@withmoons/source-graphql",
+  "version": "0.1.0",
+  "type": "module",
+  "exports": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "files": [
+    "./dist/**/*.{js,ts,map}",
+    "./src",
+    "./package.json"
+  ],
+  "scripts": {
+    "test": "echo No tests yet",
+    "build": "tsc -p ./tsconfig.json"
+  },
+  "devDependencies": {
+    "@types/node": "20.5.0",
+    "contentlayer": "0.3.4"
+  },
+  "dependencies": {
+    "@contentlayer/core": "0.3.4",
+    "@contentlayer/utils": "0.3.4",
+    "@effect-ts/core": "0.60.5",
+    "gql-query-builder": "^3.8.0",
+    "graphql-request": "6.1.0",
+    "node-fetch": "3.3.2",
+    "sharp": "^0.32.5",
+    "zod": "^3.22.2"
+  },
+  "license": "MIT"
+}
