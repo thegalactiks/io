@@ -6,3 +6,4 @@
 - "!include public_pages.yaml"
 - "!include public_persons.yaml"
 - "!include public_questions.yaml"
+- "!include public_websites.yaml"
