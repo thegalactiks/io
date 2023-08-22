@@ -1,2 +1,2 @@
 SET check_function_bodies = false;
-INSERT INTO public.articles (id, created_at, updated_at, name, description, url, image_id, author_id, headline, published_at, is_part_of, text) VALUES ('d41f0953-7ab9-4aa2-9b08-b969af805d14', '2023-07-09 21:34:10.443388+00', '2023-07-09 21:34:10.443388+00', 'First blog post', NULL, NULL, NULL, '56786eeb-1973-43cc-9023-473ff8bfb36a', NULL, NULL, NULL, 'First blog post');
+INSERT INTO public.articles (id, created_at, updated_at, name, description, url, image_id, author_id, headline, published_at, is_part_of, text) VALUES ('d41f0953-7ab9-4aa2-9b08-b969af805d14', '2023-07-09 21:34:10.443388+00', '2023-07-09 21:34:10.443388+00', 'First blog post', '', NULL, NULL, '56786eeb-1973-43cc-9023-473ff8bfb36a', NULL, NULL, NULL, 'First blog post');
