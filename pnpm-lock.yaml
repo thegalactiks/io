@@ -54,8 +54,8 @@ importers:
         specifier: 4.1.0
         version: 4.1.0(graphql@16.8.1)
       '@graphql-codegen/typescript-graphql-request':
-        specifier: 5.0.0
-        version: 5.0.0(graphql-request@6.1.0)(graphql-tag@2.12.6)(graphql@16.8.1)
+        specifier: 6.1.0
+        version: 6.1.0(graphql-request@6.1.0)(graphql-tag@2.12.6)(graphql@16.8.1)
       '@graphql-typed-document-node/core':
         specifier: 3.2.0
         version: 3.2.0(graphql@16.8.1)
@@ -1126,8 +1126,9 @@ packages:
       - supports-color
     dev: true
 
-  /@graphql-codegen/typescript-graphql-request@5.0.0(graphql-request@6.1.0)(graphql-tag@2.12.6)(graphql@16.8.1):
-    resolution: {integrity: sha512-BM9UzZD/5q3b3Q4c+VOy/QoPWgsnfs1GAnGJjh9xtuty6YsCprwhh12BaV16F+xndNUd6qkghigGyjR8m8RdkA==}
+  /@graphql-codegen/typescript-graphql-request@6.1.0(graphql-request@6.1.0)(graphql-tag@2.12.6)(graphql@16.8.1):
+    resolution: {integrity: sha512-hMhBazvdSQWuOrH6GnYew8zb9wDq9le0o3tPu07if/v97LVVKsVfPNcMG/cTLYZufaog9o2jScLbyo17HEqicg==}
+    engines: {node: '>= 16.0.0'}
     peerDependencies:
       graphql: ^0.8.0 || ^0.9.0 || ^0.10.0 || ^0.11.0 || ^0.12.0 || ^0.13.0 || ^14.0.0 || ^15.0.0 || ^16.0.0
       graphql-request: ^6.0.0
@@ -1139,7 +1140,7 @@ packages:
       graphql: 16.8.1
       graphql-request: 6.1.0(graphql@16.8.1)
       graphql-tag: 2.12.6(graphql@16.8.1)
-      tslib: 2.4.1
+      tslib: 2.6.1
     transitivePeerDependencies:
       - encoding
       - supports-color
